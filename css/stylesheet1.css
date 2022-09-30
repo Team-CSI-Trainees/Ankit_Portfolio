@@ -14,7 +14,7 @@
     justify-content: center;
     padding: 17px 0px; 
     background-color: #564590;
-   
+   top: 0px;
 
 }
 
@@ -222,3 +222,1166 @@ margin:8px 0px;
     width: 40px;
     margin: 8px 9px;
 }
+@media screen and (max-width:914px) and (min-width:750px){
+    #top ul{
+        position:fixed;
+       width: 100%;
+        display: flex;
+        list-style: none;
+        justify-content: center;
+        padding: 17px 0px; 
+        background-color: #564590;
+       top: 0px;
+    
+    }
+    
+    #top li a{
+        font-size: 1.3rem;
+        text-decoration: none;
+        color: white;
+        padding: 0px 14px;
+      
+       
+    }
+    #top li a:hover{
+        color: black;
+        text-decoration: underline;
+        background-color: white;
+        border-radius: 5px;
+    }
+    #top li a:active{
+        
+    }
+                                                            /* mid section 1 */
+    #mid1img{
+        margin-top: 3rem;
+        width: 100%;
+    }
+    #mid1{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+       top: 6rem;
+       margin-left: 2rem;
+    }
+    #up_text{ 
+
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 8rem;
+            color: #35332f;
+        
+            
+        }
+        #mid_text{
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 2.9rem;
+            color: #35332f;
+        }
+        #down_text{
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 1rem;
+            color: white;
+        }
+   
+                                                            /* skill */
+                                                           
+        #skill{
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .skillcd{
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+        }
+   
+    .skillitem{
+        padding:19px ;
+        margin: 5px;
+        background-color: #564590;
+        border-radius: 26px;
+        color: white;
+        font-size: 0.9rem;
+    }
+    .skillc{
+    
+        display: inline-block;
+        width: 19%; 
+        margin: 0rem 1rem;
+    }
+    
+    #skillid{
+        font-size: 3rem;
+        font-weight: 500;
+        padding: 5px;
+        text-align: center;
+        background-color:  #564590;
+        color: white;
+        margin-bottom: 2rem;
+    
+    }
+    #skill1 img{width: 100%;}
+    #skill2 img{width: 108%;}
+    #skill3 img{width: 86%;}
+    #skill4 img{width: 86%;}
+    #skill5 img{width: 101%;}
+                                                        /* project */
+    
+                                                        #projectid{
+                                                            font-size: 3rem;
+                                                            font-weight: 500;
+                                                            padding: 5px;
+                                                            text-align: center;
+                                                            background-color:  #564590;
+                                                            color: white;
+                                                            margin-bottom: 1rem;
+                                                        }
+    .p1{ 
+        text-align: center;
+        font-size: 1.7rem;
+        text-decoration:underline;
+        background-color: #d6caff;
+        margin: 9px 9px;
+        border-radius: 5px;
+        padding: 8px 0px;
+    }
+    #p2,#p3{ 
+        text-align: justify;
+        font-size: 1rem;
+        background-color: #d6caff;
+        margin: 9px 9px;
+        border-radius: 5px;
+        padding: 8px 10px;
+    }
+    #project1c{
+        display: flex;
+        width: 100%; 
+       
+        
+    }
+    #project1c2{
+        display: flex;
+        width: 100%;
+        
+        
+    }
+    .project1,.project2{
+        margin: 8px 9px;
+        
+        
+    }
+    .project1 img{
+        border-radius: 10px;
+        width: 100%;
+    }
+    #project2c{
+        display: flex;
+        width: 100%;  
+        
+    }
+    .project2 img{border: 2px solid black;
+        border-radius: 10px;
+        width: 100%;
+    }
+                                                        /* contact_form */
+    #contactimg{
+        width: 100%;
+    
+    }
+    
+    #contact{
+        background-image: url(../img/contact.jpg);
+        background-size: 100%;
+        padding-top: 1rem;
+       
+        
+    }
+    #contact_details{
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        width: 33%;
+    border: 2px solid black;
+    margin: auto;
+    border-radius: 10px;
+    }
+    .inputss{
+        margin: 2% 2%;
+       padding: 4% 4%;
+       border: 2px solid black;
+       border-radius: 10px;
+       background-color:  #d6caff;
+    }
+    #contactid{
+        font-size: 3rem;
+        font-weight: 500;
+        padding: 5px;
+        text-align: center;
+        background-color:  #564590;
+        color: white;
+        margin-bottom: 0.5rem;}
+
+    #submit{
+        background-color: #57d457;
+        cursor: pointer;
+        color: white;
+    } 
+    
+                                                        /* footer */
+    footer{
+        background-color: black;   
+    }
+    #lefty{
+    color: white;
+    float: right;
+    margin:20px 33px;
+    }
+    #fb{
+    margin:8px 0px;
+    }
+    .foot img{
+        width: 40px;
+        margin: 8px 3px;
+    }
+}
+@media screen and (max-width:750px) and (min-width:570px){
+    #top ul{
+        position:fixed;
+       width: 100%;
+        display: flex;
+        list-style: none;
+        justify-content: center;
+        padding: 17px 0px; 
+        background-color: #564590;
+       top: 0px;
+    
+    }
+    
+    #top li a{
+        font-size: 0.9rem;
+        text-decoration: none;
+        color: white;
+        padding: 0px 14px;
+      
+       
+    }
+    #top li a:hover{
+        color: black;
+        text-decoration: underline;
+        background-color: white;
+        border-radius: 5px;
+    }
+    #top li a:active{
+        
+    }
+                                                            /* mid section 1 */
+    #mid1img{
+        margin-top: 3rem;
+        width: 100%;
+    }
+    #mid1{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+       top: 6rem;
+       margin-left: 2rem;
+    }
+    #up_text{ 
+
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 8rem;
+            color: #35332f;
+        
+            
+        }
+        #mid_text{
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 2.9rem;
+            color: #35332f;
+        }
+        #down_text{
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 1rem;
+            color: white;
+        }
+   
+                                                            /* skill */
+                                                           
+        #skill{
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .skillcd{
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+        }
+   
+    .skillitem{
+        padding:19px ;
+        margin: 5px;
+        background-color: #564590;
+        border-radius: 26px;
+        color: white;
+        font-size: 0.9rem;
+    }
+    .skillc{
+    
+        display: inline-block;
+        width: 19%; 
+        margin: 0rem 1rem;
+    }
+    
+    #skillid{
+        font-size: 2rem;
+        font-weight: 500;
+        padding: 5px;
+        text-align: center;
+        background-color:  #564590;
+        color: white;
+        margin-bottom: 2rem;
+    
+    }
+    #skill1 img{width: 100%;}
+    #skill2 img{width: 108%;}
+    #skill3 img{width: 86%;}
+    #skill4 img{width: 86%;}
+    #skill5 img{width: 101%;}
+                                                        /* project */
+    
+                                                        #projectid{
+                                                            font-size: 2rem;
+                                                            font-weight: 500;
+                                                            padding: 5px;
+                                                            text-align: center;
+                                                            background-color:  #564590;
+                                                            color: white;
+                                                            margin-bottom: 1rem;
+                                                        }
+    .p1{ 
+        text-align: center;
+        font-size: 1.3rem;
+        text-decoration:underline;
+        background-color: #d6caff;
+        margin: 9px 9px;
+        border-radius: 5px;
+        padding: 8px 0px;
+    }
+    #p2,#p3{ 
+        text-align: justify;
+        font-size: 0.9rem;
+        background-color: #d6caff;
+        margin: 9px 9px;
+        border-radius: 5px;
+        padding: 8px 10px;
+    }
+    #project1c{
+        display: flex;
+        width: 100%; 
+        flex-wrap: wrap;
+        
+    }
+    #project1c2{
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        
+    }
+    .project1,.project2{
+        margin: 8px 9px;
+        
+        
+    }
+    .project1 img{
+        border-radius: 10px;
+        width: 100%;
+    }
+    #project2c{
+        display: flex;
+        width: 100%;  
+        flex-wrap: wrap;
+    }
+    .project2 img{border: 2px solid black;
+        border-radius: 10px;
+        width: 100%;
+    }
+                                                        /* contact_form */
+    #contactimg{
+        width: 100%;
+    
+    }
+    
+    #contact{
+        background-image: url(../img/contact.jpg);
+        background-size: 100%;
+        padding-top: 1rem;
+       
+        
+    }
+    #contact_details{
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        width: 33%;
+    border: 2px solid black;
+    margin: auto;
+    border-radius: 10px;
+    }
+    .inputss{
+        margin: 2% 2%;
+       padding: 4% 4%;
+       border: 2px solid black;
+       border-radius: 10px;
+       background-color:  #d6caff;
+    }
+    #contactid{
+        font-size: 2rem;
+        font-weight: 500;
+        padding: 5px;
+        text-align: center;
+        background-color:  #564590;
+        color: white;
+        margin-bottom: 0.5rem;}
+
+    #submit{
+        background-color: #57d457;
+        cursor: pointer;
+        color: white;
+    } 
+    
+                                                        /* footer */
+    footer{
+        background-color: black;   
+    }
+    #lefty{
+    color: white;
+    float: right;
+    margin:20px 33px;
+    }
+    #fb{
+    margin:8px 0px;
+    }
+    .foot img{
+        width: 40px;
+        margin: 8px 3px;
+    }
+   
+    }
+    @media screen and (max-width:570px) and (min-width:460px){
+        #mid1{
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+           top: 5rem;
+           margin-left: 2rem;
+        }
+        #up_text{ 
+   
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                font-size: 5rem;
+                color: #35332f;
+            
+                
+            }
+            #mid_text{
+                font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                font-size: 1.8rem;
+                color: #35332f;
+            }
+            #down_text{
+                font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                font-size: 0.6rem;
+                color: white;
+            }
+    
+            #skill{
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+            }
+            .skillcd{
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+            }
+    }
+    @media screen and (max-width:750px) and (min-width:570px){
+        #top ul{
+            position:fixed;
+           width: 100%;
+            display: flex;
+            list-style: none;
+            justify-content: center;
+            padding: 17px 0px; 
+            background-color: #564590;
+           top: 0px;
+        
+        }
+        
+        #top li a{
+            font-size: 0.9rem;
+            text-decoration: none;
+            color: white;
+            padding: 0px 14px;
+          
+           
+        }
+        #top li a:hover{
+            color: black;
+            text-decoration: underline;
+            background-color: white;
+            border-radius: 5px;
+        }
+        #top li a:active{
+            
+        }
+                                                                /* mid section 1 */
+        #mid1img{
+            margin-top: 3rem;
+            width: 100%;
+        }
+        #mid1{
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+           top: 6rem;
+           margin-left: 2rem;
+        }
+        #up_text{ 
+   
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                font-size: 6rem;
+                color: #35332f;
+            
+                
+            }
+            #mid_text{
+                font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                font-size: 1.9rem;
+                color: #35332f;
+            }
+            #down_text{
+                font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                font-size: 0.8rem;
+                color: white;
+            }
+       
+                                                                /* skill */
+                                                               
+            #skill{
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+            }
+            .skillcd{
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+            }
+       
+        .skillitem{
+            padding:19px ;
+            margin: 5px;
+            background-color: #564590;
+            border-radius: 26px;
+            color: white;
+            font-size: 0.9rem;
+        }
+        .skillc{
+        
+            display: inline-block;
+            width: 19%; 
+            margin: 0rem 1rem;
+        }
+        
+        #skillid{
+            font-size: 2rem;
+            font-weight: 500;
+            padding: 5px;
+            text-align: center;
+            background-color:  #564590;
+            color: white;
+            margin-bottom: 2rem;
+        
+        }
+        #skill1 img{width: 100%;}
+        #skill2 img{width: 108%;}
+        #skill3 img{width: 86%;}
+        #skill4 img{width: 86%;}
+        #skill5 img{width: 101%;}
+                                                            /* project */
+        
+                                                            #projectid{
+                                                                font-size: 2rem;
+                                                                font-weight: 500;
+                                                                padding: 5px;
+                                                                text-align: center;
+                                                                background-color:  #564590;
+                                                                color: white;
+                                                                margin-bottom: 1rem;
+                                                            }
+        .p1{ 
+            text-align: center;
+            font-size: 1.3rem;
+            text-decoration:underline;
+            background-color: #d6caff;
+            margin: 9px 9px;
+            border-radius: 5px;
+            padding: 8px 0px;
+        }
+        #p2,#p3{ 
+            text-align: justify;
+            font-size: 0.9rem;
+            background-color: #d6caff;
+            margin: 9px 9px;
+            border-radius: 5px;
+            padding: 8px 10px;
+        }
+        #project1c{
+            display: flex;
+            width: 100%; 
+            flex-wrap: wrap;
+            
+        }
+        #project1c2{
+            display: flex;
+            width: 100%;
+            flex-wrap: wrap;
+            
+        }
+        .project1,.project2{
+            margin: 8px 9px;
+            
+            
+        }
+        .project1 img{
+            border-radius: 10px;
+            width: 100%;
+        }
+        #project2c{
+            display: flex;
+            width: 100%;  
+            flex-wrap: wrap;
+        }
+        .project2 img{border: 2px solid black;
+            border-radius: 10px;
+            width: 100%;
+        }
+                                                            /* contact_form */
+        #contactimg{
+            width: 100%;
+        
+        }
+        
+        #contact{
+            background-image: url(../img/contact.jpg);
+            background-size: 100%;
+            padding-top: 1rem;
+           
+            
+        }
+        #contact_details{
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            width: 33%;
+        border: 2px solid black;
+        margin: auto;
+        border-radius: 10px;
+        }
+        .inputss{
+            margin: 2% 2%;
+           padding: 4% 4%;
+           border: 2px solid black;
+           border-radius: 10px;
+           background-color:  #d6caff;
+        }
+        #contactid{
+            font-size: 2rem;
+            font-weight: 500;
+            padding: 5px;
+            text-align: center;
+            background-color:  #564590;
+            color: white;
+            margin-bottom: 0.5rem;}
+
+        #submit{
+            background-color: #57d457;
+            cursor: pointer;
+            color: white;
+        } 
+        
+                                                            /* footer */
+        footer{
+            background-color: black;   
+        }
+        #lefty{
+        color: white;
+        float: right;
+        margin:20px 33px;
+        }
+        #fb{
+        margin:8px 0px;
+        }
+        .foot img{
+            width: 40px;
+            margin: 8px 3px;
+        }
+        /* 
+        
+     */
+    }
+    @media screen and (max-width:570px) and (min-width:460px){
+        #top ul{
+            position:fixed;
+           width: 100%;
+            display: flex;
+            list-style: none;
+            justify-content: center;
+            padding: 17px 0px; 
+            background-color: #564590;
+           top: 0px;
+        
+        }
+        
+        #top li a{
+            font-size: 0.9rem;
+            text-decoration: none;
+            color: white;
+            padding: 0px 14px;
+          
+           
+        }
+        #top li a:hover{
+            color: black;
+            text-decoration: underline;
+            background-color: white;
+            border-radius: 5px;
+        }
+        #top li a:active{
+            
+        }
+                                                                /* mid section 1 */
+        #mid1img{
+            margin-top: 3rem;
+            width: 100%;
+        }
+        #mid1{
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+           top: 5rem;
+           margin-left: 2rem;
+        }
+        #up_text{ 
+   
+            
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                font-size: 5rem;
+                color: #35332f;
+            
+                
+            }
+            #mid_text{
+                font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                font-size: 1.8rem;
+                color: #35332f;
+            }
+            #down_text{
+                font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                font-size: 0.6rem;
+                color: white;
+            }
+       
+                                                                /* skill */
+                                                                #skill{
+                                                                    width: 100%;
+                                                                    display: flex;
+                                                                    flex-wrap: wrap;
+                                                                }
+                                                                .skillcd{
+                                                                    width: 100%;
+                                                                    display: flex;
+                                                                    flex-wrap: wrap;
+                                                                }
+       
+        .skillitem{
+            padding:19px ;
+            margin: 5px;
+            background-color: #564590;
+            border-radius: 26px;
+            color: white;
+            font-size: 0.9rem;
+        }
+        .skillc{
+        
+            display: inline-block;
+            width: 19%; 
+            margin: 0rem 1rem;
+        }
+        
+        #skillid{
+            font-size: 2rem;
+            font-weight: 500;
+            padding: 5px;
+            text-align: center;
+            background-color:  #564590;
+            color: white;
+            margin-bottom: 2rem;
+        
+        }
+        #skill1 img{width: 100%;}
+        #skill2 img{width: 108%;}
+        #skill3 img{width: 86%;}
+        #skill4 img{width: 86%;}
+        #skill5 img{width: 101%;}
+                                                            /* project */
+        
+                                                            #projectid{
+                                                                font-size: 2rem;
+                                                                font-weight: 500;
+                                                                padding: 5px;
+                                                                text-align: center;
+                                                                background-color:  #564590;
+                                                                color: white;
+                                                                margin-bottom: 1rem;
+                                                            }
+        .p1{ 
+            text-align: center;
+            font-size: 1.3rem;
+            text-decoration:underline;
+            background-color: #d6caff;
+            margin: 9px 9px;
+            border-radius: 5px;
+            padding: 8px 0px;
+        }
+        #p2,#p3{ 
+            text-align: justify;
+            font-size: 0.9rem;
+            background-color: #d6caff;
+            margin: 9px 9px;
+            border-radius: 5px;
+            padding: 8px 10px;
+        }
+        #project1c{
+            display: flex;
+            width: 100%; 
+            flex-wrap: wrap;
+            
+        }
+        #project1c2{
+            display: flex;
+            width: 100%;
+            flex-wrap: wrap;
+            
+        }
+        .project1,.project2{
+            margin: 8px 9px;
+            
+            
+        }
+        .project1 img{
+            border-radius: 10px;
+            width: 100%;
+        }
+        #project2c{
+            display: flex;
+            width: 100%;  
+            flex-wrap: wrap;
+        }
+        .project2 img{border: 2px solid black;
+            border-radius: 10px;
+            width: 100%;
+        }
+                                                            /* contact_form */
+        #contactimg{
+            width: 100%;
+        
+        }
+        
+        #contact{
+            background-image: url(../img/contact.jpg);
+            background-size: 100%;
+            padding-top: 1rem;
+           
+            
+        }
+        #contact_details{
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            width: 33%;
+        border: 2px solid black;
+        margin: auto;
+        border-radius: 10px;
+        }
+        .inputss{
+            margin: 2% 2%;
+           padding: 4% 4%;
+           border: 2px solid black;
+           border-radius: 10px;
+           background-color:  #d6caff;
+        }
+        #contactid{
+            font-size: 2rem;
+            font-weight: 500;
+            padding: 5px;
+            text-align: center;
+            background-color:  #564590;
+            color: white;
+            margin-bottom: 0.5rem;}
+
+        #submit{
+            background-color: #57d457;
+            cursor: pointer;
+            color: white;
+        } 
+        
+                                                            /* footer */
+        footer{
+            background-color: black;   
+        }
+        #lefty{
+        color: white;
+        float: right;
+        margin:20px 33px;
+        }
+        #fb{
+        margin:8px 0px;
+        }
+        .foot img{
+            width: 40px;
+            margin: 8px 3px;
+        }
+    }
+    @media screen and (max-width:460px) {
+        #top ul{
+            position:fixed;
+           width: 100%;
+            display: flex;
+            list-style: none;
+            justify-content: center;
+            padding: 17px 0px; 
+            background-color: #564590;
+           top: 0px;
+        
+        }
+        
+        #top li a{
+            font-size: 0.9rem;
+            text-decoration: none;
+            color: white;
+            padding: 0px 14px;
+          
+           
+        }
+        #top li a:hover{
+            color: black;
+            text-decoration: underline;
+            background-color: white;
+            border-radius: 5px;
+        }
+        #top li a:active{
+            
+        }
+                                                                /* mid section 1 */
+        #mid1img{
+            margin-top: 3rem;
+            width: 100%;
+        }
+        #mid1{
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+           top: 5rem;
+           margin-left: 2rem;
+        }
+        #up_text{ 
+   
+            
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                font-size: 5rem;
+                color: #35332f;
+            
+                
+            }
+            #mid_text{
+                font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                font-size: 1.8rem;
+                color: #35332f;
+            }
+            #down_text{
+                font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                font-size: 0.6rem;
+                color: white;
+            }
+       
+                                                                /* skill */
+                                                                #skill{
+                                                                    width: 100%;
+                                                                    display: flex;
+                                                                    flex-wrap: wrap;
+                                                                }
+                                                                .skillcd{
+                                                                    width: 100%;
+                                                                    display: flex;
+                                                                    flex-wrap: wrap;
+                                                                }
+       
+        .skillitem{
+            padding:19px ;
+            margin: 5px;
+            background-color: #564590;
+            border-radius: 26px;
+            color: white;
+            font-size: 0.9rem;
+        }
+        .skillc{
+        
+            display: inline-block;
+            width: 19%; 
+            margin: 0rem 1rem;
+        }
+        
+        #skillid{
+            font-size: 2rem;
+            font-weight: 500;
+            padding: 5px;
+            text-align: center;
+            background-color:  #564590;
+            color: white;
+            margin-bottom: 2rem;
+        
+        }
+        #skill1 img{width: 100%;}
+        #skill2 img{width: 108%;}
+        #skill3 img{width: 86%;}
+        #skill4 img{width: 86%;}
+        #skill5 img{width: 101%;}
+                                                            /* project */
+        
+                                                            #projectid{
+                                                                font-size: 2rem;
+                                                                font-weight: 500;
+                                                                padding: 5px;
+                                                                text-align: center;
+                                                                background-color:  #564590;
+                                                                color: white;
+                                                                margin-bottom: 1rem;
+                                                            }
+        .p1{ 
+            text-align: center;
+            font-size: 1.3rem;
+            text-decoration:underline;
+            background-color: #d6caff;
+            margin: 9px 9px;
+            border-radius: 5px;
+            padding: 8px 0px;
+        }
+        #p2,#p3{ 
+            text-align: justify;
+            font-size: 0.9rem;
+            background-color: #d6caff;
+            margin: 9px 9px;
+            border-radius: 5px;
+            padding: 8px 10px;
+        }
+        #project1c{
+            display: flex;
+            width: 100%; 
+            flex-wrap: wrap;
+            
+        }
+        #project1c2{
+            display: flex;
+            width: 100%;
+            flex-wrap: wrap;
+            
+        }
+        .project1,.project2{
+            margin: 8px 9px;
+            
+            
+        }
+        .project1 img{
+            border-radius: 10px;
+            width: 100%;
+        }
+        #project2c{
+            display: flex;
+            width: 100%;  
+            flex-wrap: wrap;
+        }
+        .project2 img{border: 2px solid black;
+            border-radius: 10px;
+            width: 100%;
+        }
+                                                            /* contact_form */
+        #contactimg{
+            width: 100%;
+        
+        }
+        
+        #contact{
+            background-image: url(../img/contact.jpg);
+            background-size: 100%;
+            padding-top: 1rem;
+           
+            
+        }
+        #contact_details{
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            width: 33%;
+        border: 2px solid black;
+        margin: auto;
+        border-radius: 10px;
+        }
+        .inputss{
+            margin: 2% 2%;
+           padding: 4% 4%;
+           border: 2px solid black;
+           border-radius: 10px;
+           background-color:  #d6caff;
+        }
+        #contactid{
+            font-size: 2rem;
+            font-weight: 500;
+            padding: 5px;
+            text-align: center;
+            background-color:  #564590;
+            color: white;
+            margin-bottom: 0.5rem;}
+
+        #submit{
+            background-color: #57d457;
+            cursor: pointer;
+            color: white;
+        } 
+        
+                                                            /* footer */
+        footer{
+            background-color: black;   
+        }
+        #lefty{
+        color: white;
+        float: right;
+        margin:20px 33px;
+        }
+        #fb{
+        margin:8px 0px;
+        }
+        .foot img{
+            width: 40px;
+            margin: 8px 3px;
+        }
+    }
