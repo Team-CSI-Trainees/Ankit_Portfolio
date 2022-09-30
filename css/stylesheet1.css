@@ -13,16 +13,11 @@
     list-style: none;
     justify-content: center;
     padding: 17px 0px; 
-    /* background-color: #d6997c; */
     background-color: #564590;
-    z-index: +11;
+   
 
 }
-nav{
-   
-  
-    
-}
+
 #top li a{
     font-size: 1.5rem;
     text-decoration: none;
@@ -38,6 +33,7 @@ nav{
     border-radius: 5px;
 }
 #top li a:active{
+    
 }
                                                         /* mid section 1 */
 #mid1img{
@@ -166,7 +162,49 @@ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     border-radius: 10px;
     width: 100%;
 }
+                                                    /* contact_form */
+#contactimg{
+    width: 100%;
 
+}
+
+#contact{
+    background-image: url(../img/contact.jpg);
+    background-size: 100%;
+    padding-top: 1rem;
+   
+    
+}
+#contact_details{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+border: 2px solid black;
+margin: auto;
+border-radius: 10px;
+}
+.inputss{
+    margin: 2% 2%;
+   padding: 4% 4%;
+   border: 2px solid black;
+   border-radius: 10px;
+   background-color:  #d6caff;
+}
+#contactid{
+    font-size: 4rem;
+    font-weight: 500;
+    padding: 5px;
+    text-align: center;
+    background-color:  #564590;
+    color: white;
+    margin-bottom: 0.5rem;
+}
+#submit{
+    background-color: #57d457;
+    cursor: pointer;
+    color: white;
+} 
 
                                                     /* footer */
 footer{
