@@ -15,6 +15,7 @@
     padding: 17px 0px; 
     background-color: #564590;
    top: 0px;
+   z-index: 2;
 
 }
 
@@ -47,6 +48,7 @@
     width: 50%;
    top: 8rem;
    margin-left: 3rem;
+   z-index: 1;
 }
 
 #up_text{ 
@@ -882,7 +884,7 @@ margin:8px 0px;
         #contact{
             background-image: url(../img/contact.jpg);
             background-size: 100%;
-            padding-top: 1rem;
+            padding-top: 10px;
            
             
         }
@@ -890,7 +892,7 @@ margin:8px 0px;
             background-color: white;
             display: flex;
             flex-direction: column;
-            width: 33%;
+            width: 43%;
         border: 2px solid black;
         margin: auto;
         border-radius: 10px;
@@ -937,7 +939,7 @@ margin:8px 0px;
         
      */
     }
-    @media screen and (max-width:570px) and (min-width:460px){
+    @media screen and (max-width:570px) and (min-width:430px){
         #top ul{
             position:fixed;
            width: 100%;
@@ -1109,7 +1111,7 @@ margin:8px 0px;
         #contact{
             background-image: url(../img/contact.jpg);
             background-size: 100%;
-            padding-top: 1rem;
+            padding-top: 10px;
            
             
         }
@@ -1117,7 +1119,7 @@ margin:8px 0px;
             background-color: white;
             display: flex;
             flex-direction: column;
-            width: 33%;
+            width: 57%;
         border: 2px solid black;
         margin: auto;
         border-radius: 10px;
@@ -1151,17 +1153,17 @@ margin:8px 0px;
         #lefty{
         color: white;
         float: right;
-        margin:20px 33px;
+        margin:16px 24px;
         }
         #fb{
         margin:8px 0px;
         }
         .foot img{
-            width: 40px;
+            width: 34px;
             margin: 8px 3px;
         }
     }
-    @media screen and (max-width:460px) {
+    @media screen and (max-width:430px) and (min-width:375px){
         #top ul{
             position:fixed;
            width: 100%;
@@ -1175,7 +1177,7 @@ margin:8px 0px;
         }
         
         #top li a{
-            font-size: 0.9rem;
+            font-size: 13px;
             text-decoration: none;
             color: white;
             padding: 0px 14px;
@@ -1208,19 +1210,19 @@ margin:8px 0px;
    
             
             font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-                font-size: 5rem;
+                font-size:56px;
                 color: #35332f;
             
                 
             }
             #mid_text{
                 font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-                font-size: 1.8rem;
+                font-size: 23px;
                 color: #35332f;
             }
             #down_text{
                 font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-                font-size: 0.6rem;
+                font-size: 10px;
                 color: white;
             }
        
@@ -1242,7 +1244,7 @@ margin:8px 0px;
             background-color: #564590;
             border-radius: 26px;
             color: white;
-            font-size: 0.9rem;
+            font-size: 12px;
         }
         .skillc{
         
@@ -1279,7 +1281,7 @@ margin:8px 0px;
                                                             }
         .p1{ 
             text-align: center;
-            font-size: 1.3rem;
+            font-size: 1.2rem;
             text-decoration:underline;
             background-color: #d6caff;
             margin: 9px 9px;
@@ -1288,7 +1290,7 @@ margin:8px 0px;
         }
         #p2,#p3{ 
             text-align: justify;
-            font-size: 0.9rem;
+            font-size: 12px;
             background-color: #d6caff;
             margin: 9px 9px;
             border-radius: 5px;
@@ -1341,14 +1343,14 @@ margin:8px 0px;
             background-color: white;
             display: flex;
             flex-direction: column;
-            width: 33%;
+            width: 64%;
         border: 2px solid black;
         margin: auto;
         border-radius: 10px;
         }
         .inputss{
             margin: 2% 2%;
-           padding: 4% 4%;
+           padding: 3% 4%;
            border: 2px solid black;
            border-radius: 10px;
            background-color:  #d6caff;
@@ -1375,13 +1377,689 @@ margin:8px 0px;
         #lefty{
         color: white;
         float: right;
-        margin:20px 33px;
+        margin:12px 20px;
         }
         #fb{
         margin:8px 0px;
         }
         .foot img{
-            width: 40px;
+            width: 27px;
+            margin: 8px 3px;
+        }
+    }
+    @media screen and (max-width:430px) and (min-width:320px){
+        #top ul{
+            position:fixed;
+           width: 100%;
+            display: flex;
+            list-style: none;
+            justify-content: center;
+            padding: 17px 0px; 
+            background-color: #564590;
+           top: 0px;
+        
+        }
+        
+        #top li a{
+            font-size: 12px;
+            text-decoration: none;
+            color: white;
+            padding: 0px 7px;
+          
+           
+        }
+        #top li a:hover{
+            color: black;
+            text-decoration: underline;
+            background-color: white;
+            border-radius: 5px;
+        }
+        #top li a:active{
+            
+        }
+                                                                /* mid section 1 */
+        #mid1img{
+            margin-top: 3rem;
+            width: 100%;
+        }
+        #mid1{
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            width: 54%;
+           top: 53px;
+           margin-left: 21px;
+        }
+        #up_text{ 
+   
+            
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                font-size:56px;
+                color: #35332f;
+            
+                
+            }
+            #mid_text{
+                font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                font-size: 23px;
+                color: #35332f;
+            }
+            #down_text{
+                font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                font-size: 10px;
+                color: white;
+            }
+       
+                                                                /* skill */
+                                                                #skill{
+                                                                    width: 100%;
+                                                                    display: flex;
+                                                                    flex-wrap: wrap;
+                                                                }
+                                                                .skillcd{
+                                                                    width: 100%;
+                                                                    display: flex;
+                                                                    flex-wrap: wrap;
+                                                                }
+       
+        .skillitem{
+            padding:14px ;
+            margin: 5px;
+            background-color: #564590;
+            border-radius: 17px;
+            color: white;
+            font-size: 12px;
+        }
+        .skillc{
+        
+            display: inline-block;
+            width: 19%; 
+            margin: 0rem 1rem;
+        }
+        
+        #skillid{
+            font-size: 28px;
+            font-weight: 500;
+            padding: 3px;
+            text-align: center;
+            background-color:  #564590;
+            color: white;
+            margin-bottom: 16px;
+        
+        }
+        #skill1 img{width: 100%;}
+        #skill2 img{width: 108%;}
+        #skill3 img{width: 86%;}
+        #skill4 img{width: 86%;}
+        #skill5 img{width: 101%;}
+                                                            /* project */
+        
+                                                            #projectid{
+                                                                font-size: 28px;
+                                                                font-weight: 500;
+                                                                padding: 3px;
+                                                                text-align: center;
+                                                                background-color:  #564590;
+                                                                color: white;
+                                                                margin-bottom: 3px;
+                                                            }
+        .p1{ 
+            text-align: center;
+            font-size: 1.1rem;
+            text-decoration:underline;
+            background-color: #d6caff;
+            margin: 9px 9px;
+            border-radius: 5px;
+            padding: 8px 0px;
+        }
+        #p2,#p3{ 
+            text-align: justify;
+            font-size: 12px;
+            background-color: #d6caff;
+            margin: 9px 9px;
+            border-radius: 5px;
+            padding: 8px 10px;
+        }
+        #project1c{
+            display: flex;
+            width: 100%; 
+            flex-wrap: wrap;
+            
+        }
+        #project1c2{
+            display: flex;
+            width: 100%;
+            flex-wrap: wrap;
+            
+        }
+        .project1,.project2{
+            margin: 2px 9px;
+            
+            
+        }
+        .project1 img{
+            border-radius: 10px;
+            width: 100%;
+        }
+        #project2c{
+            display: flex;
+            width: 100%;  
+            flex-wrap: wrap;
+        }
+        .project2 img{border: 2px solid black;
+            border-radius: 10px;
+            width: 100%;
+        }
+                                                            /* contact_form */
+        #contactimg{
+            width: 100%;
+        
+        }
+        
+        #contact{
+            background-image: url(../img/contact.jpg);
+            background-size: 100%;
+            padding-top: 6px;
+           
+            
+        }
+        #contact_details{
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            width: 75%;
+        border: 2px solid black;
+        margin: auto;
+        border-radius: 5px;
+        }
+        .inputss{
+            margin: 2% 2%;
+           padding: 3% 4%;
+           border: 2px solid black;
+           border-radius: 5px;
+           background-color:  #d6caff;
+        }
+        #contactid{
+            font-size: 28px;
+            font-weight: 500;
+            padding: 3px;
+            text-align: center;
+            background-color:  #564590;
+            color: white;
+            margin-bottom: 3px;}
+
+        #submit{
+            background-color: #57d457;
+            cursor: pointer;
+            color: white;
+        } 
+        
+                                                            /* footer */
+        footer{
+            background-color: black;   
+        }
+        #lefty{
+        color: white;
+        float: right;
+        margin:10px 10px;
+        }
+        #fb{
+        margin:8px 0px;
+        }
+        .foot img{
+            width: 21px;
+            margin: 8px 3px;
+        }
+    }
+    @media screen and (max-width:320px) and (min-width:237px){
+        #top ul{
+            position:fixed;
+           width: 100%;
+            display: flex;
+            list-style: none;
+            justify-content: center;
+            padding: 12px 0px; 
+            background-color: #564590;
+           top: 0px;
+        
+        }
+        
+        #top li a{
+            font-size: 12px;
+            text-decoration: none;
+            color: white;
+            padding: 0px 3px;
+          
+           
+        }
+        #top li a:hover{
+            color: black;
+            text-decoration: underline;
+            background-color: white;
+            border-radius: 5px;
+        }
+        #top li a:active{
+            
+        }
+                                                                /* mid section 1 */
+        #mid1img{
+            margin-top: 40px;
+            width: 100%;
+        }
+        #mid1{
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            width: 64%;
+           top: 39px;
+           margin-left: 13px;
+        }
+        #up_text{ 
+   
+            
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                font-size:44px;
+                color: #35332f;
+            
+                
+            }
+            #mid_text{
+                font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                font-size: 19px;
+                color: #35332f;
+            }
+            #down_text{
+                font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                font-size: 8px;
+                color: white;
+                width: 100%;
+            }
+       
+                                                                /* skill */
+                                                                #skill{
+                                                                    width: 100%;
+                                                                    display: flex;
+                                                                    flex-wrap: wrap;
+                                                                }
+                                                                .skillcd{
+                                                                    width: 100%;
+                                                                    display: flex;
+                                                                    flex-wrap: wrap;
+                                                                }
+       
+        .skillitem{
+            padding:14px ;
+            margin: 5px;
+            background-color: #564590;
+            border-radius: 17px;
+            color: white;
+            font-size: 12px;
+        }
+        .skillc{
+        
+            display: inline-block;
+            width: 19%; 
+            margin: 0rem 1rem;
+        }
+        
+        #skillid{
+            font-size: 28px;
+            font-weight: 500;
+            padding: 3px;
+            text-align: center;
+            background-color:  #564590;
+            color: white;
+            margin-bottom: 16px;
+        
+        }
+        #skill1 img{width: 100%;}
+        #skill2 img{width: 108%;}
+        #skill3 img{width: 86%;}
+        #skill4 img{width: 86%;}
+        #skill5 img{width: 101%;}
+                                                            /* project */
+        
+                                                            #projectid{
+                                                                font-size: 28px;
+                                                                font-weight: 500;
+                                                                padding: 3px;
+                                                                text-align: center;
+                                                                background-color:  #564590;
+                                                                color: white;
+                                                                margin-bottom: 3px;
+                                                            }
+        .p1{ 
+            text-align: center;
+            font-size: 1.1rem;
+            text-decoration:underline;
+            background-color: #d6caff;
+            margin: 9px 9px;
+            border-radius: 5px;
+            padding: 8px 0px;
+        }
+        #p2,#p3{ 
+            text-align: justify;
+            font-size: 12px;
+            background-color: #d6caff;
+            margin: 9px 9px;
+            border-radius: 5px;
+            padding: 8px 10px;
+        }
+        #project1c{
+            display: flex;
+            width: 100%; 
+            flex-wrap: wrap;
+            
+        }
+        #project1c2{
+            display: flex;
+            width: 100%;
+            flex-wrap: wrap;
+            
+        }
+        .project1,.project2{
+            margin: 2px 9px;
+            
+            
+        }
+        .project1 img{
+            border-radius: 10px;
+            width: 100%;
+        }
+        #project2c{
+            display: flex;
+            width: 100%;  
+            flex-wrap: wrap;
+        }
+        .project2 img{border: 2px solid black;
+            border-radius: 10px;
+            width: 100%;
+        }
+                                                            /* contact_form */
+        #contactimg{
+            width: 100%;
+        
+        }
+        
+        #contact{
+            background-image: url(../img/contact.jpg);
+            background-size: 100%;
+            padding-top: 6px;
+           
+            
+        }
+        #contact_details{
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            width: 93%;
+        border: 2px solid black;
+        margin: auto;
+        border-radius: 5px;
+        }
+        .inputss{
+            margin: 2% 2%;
+           padding: 3% 4%;
+           border: 2px solid black;
+           border-radius: 5px;
+           background-color:  #d6caff;
+        }
+        #contactid{
+            font-size: 28px;
+            font-weight: 500;
+            padding: 3px;
+            text-align: center;
+            background-color:  #564590;
+            color: white;
+            margin-bottom: 3px;}
+
+        #submit{
+            background-color: #57d457;
+            cursor: pointer;
+            color: white;
+        } 
+        
+                                                            /* footer */
+        footer{
+            background-color: black;   
+        }
+        #lefty{
+        color: white;
+        float: right;
+        margin:10px 10px;
+        font-size: 11px;
+        }
+        #fb{
+        margin:8px 0px;
+        }
+        .foot img{
+            width: 17px;
+            margin: 8px 3px;
+        }
+    }
+    @media screen and (max-width:237px){
+        #top ul{
+            position:fixed;
+           width: 100%;
+            display: flex;
+            list-style: none;
+            justify-content: center;
+            padding: 8px 0px; 
+            background-color: #564590;
+           top: 0px;
+        
+        }
+        
+        #top li a{
+            font-size: 10px;
+            text-decoration: none;
+            color: white;
+            padding: 0px 3px;
+          
+           
+        }
+        #top li a:hover{
+            color: black;
+            text-decoration: underline;
+            background-color: white;
+            border-radius: 5px;
+        }
+        #top li a:active{
+            
+        }
+                                                                /* mid section 1 */
+        #mid1img{
+            margin-top: 35px;
+            width: 100%;
+        }
+        #mid1{
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            width: 64%;
+           top: 39px;
+           margin-left: 5px;
+        }
+        #up_text{ 
+   
+            
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                font-size:26px;
+                color: #35332f;
+            
+                
+            }
+            #mid_text{
+                font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                font-size: 16px;
+                color: #35332f;
+            }
+            #down_text{
+                font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                font-size: 8px;
+                color: white;
+                width: 100%;
+            }
+       
+                                                                /* skill */
+                                                                #skill{
+                                                                    width: 100%;
+                                                                    display: flex;
+                                                                    flex-wrap: wrap;
+                                                                }
+                                                                .skillcd{
+                                                                    width: 100%;
+                                                                    display: flex;
+                                                                    flex-wrap: wrap;
+                                                                }
+       
+        .skillitem{
+            padding:14px ;
+            margin: 5px;
+            background-color: #564590;
+            border-radius: 17px;
+            color: white;
+            font-size: 12px;
+        }
+        .skillc{
+        
+            display: inline-block;
+            width: 19%; 
+            margin: 0rem 1rem;
+        }
+        
+        #skillid{
+            font-size: 28px;
+            font-weight: 500;
+            padding: 3px;
+            text-align: center;
+            background-color:  #564590;
+            color: white;
+            margin-bottom: 16px;
+        
+        }
+        #skill1 img{width: 100%;}
+        #skill2 img{width: 108%;}
+        #skill3 img{width: 86%;}
+        #skill4 img{width: 86%;}
+        #skill5 img{width: 101%;}
+                                                            /* project */
+        
+                                                            #projectid{
+                                                                font-size: 28px;
+                                                                font-weight: 500;
+                                                                padding: 3px;
+                                                                text-align: center;
+                                                                background-color:  #564590;
+                                                                color: white;
+                                                                margin-bottom: 3px;
+                                                            }
+        .p1{ 
+            text-align: center;
+            font-size: 1.1rem;
+            text-decoration:underline;
+            background-color: #d6caff;
+            margin: 9px 9px;
+            border-radius: 5px;
+            padding: 8px 0px;
+        }
+        #p2,#p3{ 
+            text-align: justify;
+            font-size: 12px;
+            background-color: #d6caff;
+            margin: 9px 9px;
+            border-radius: 5px;
+            padding: 8px 10px;
+        }
+        #project1c{
+            display: flex;
+            width: 100%; 
+            flex-wrap: wrap;
+            
+        }
+        #project1c2{
+            display: flex;
+            width: 100%;
+            flex-wrap: wrap;
+            
+        }
+        .project1,.project2{
+            margin: 2px 9px;
+            
+            
+        }
+        .project1 img{
+            border-radius: 10px;
+            width: 100%;
+        }
+        #project2c{
+            display: flex;
+            width: 100%;  
+            flex-wrap: wrap;
+        }
+        .project2 img{border: 2px solid black;
+            border-radius: 10px;
+            width: 100%;
+        }
+                                                            /* contact_form */
+        #contactimg{
+            width: 100%;
+        
+        }
+        
+        #contact{
+            background-image: url(../img/contact.jpg);
+            background-size: 100%;
+            padding-top: 6px;
+           
+            
+        }
+        #contact_details{
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            width: 93%;
+        border: 2px solid black;
+        margin: auto;
+        border-radius: 5px;
+        }
+        .inputss{
+            margin: 2% 2%;
+           padding: 3% 4%;
+           border: 2px solid black;
+           border-radius: 5px;
+           background-color:  #d6caff;
+        }
+        #contactid{
+            font-size: 28px;
+            font-weight: 500;
+            padding: 3px;
+            text-align: center;
+            background-color:  #564590;
+            color: white;
+            margin-bottom: 3px;}
+
+        #submit{
+            background-color: #57d457;
+            cursor: pointer;
+            color: white;
+        } 
+        
+                                                            /* footer */
+        footer{
+            background-color: black;   
+        }
+        #lefty{
+        color: white;
+        float: right;
+        margin:9px 3px;
+        font-size: 10px;
+        }
+        #fb{
+        margin:8px 0px;
+        }
+        .foot img{
+            width: 14px;
             margin: 8px 3px;
         }
     }
