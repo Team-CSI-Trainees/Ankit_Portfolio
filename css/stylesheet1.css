@@ -207,6 +207,11 @@ border-radius: 10px;
     cursor: pointer;
     color: white;
 } 
+#submit:hover{
+    background-color: #317b31;
+    cursor: pointer;
+    color: white;
+} 
 
                                                     /* footer */
 footer{
@@ -223,6 +228,33 @@ margin:8px 0px;
 .foot img{
     width: 40px;
     margin: 8px 9px;
+}
+#lefty:hover{
+    animation-name: ankit2;
+    animation-duration: 1s;
+   animation-iteration-count: infinite; 
+}
+.foot img:hover{
+    animation-name: ankit;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+@keyframes ankit{
+    from{
+        width:40px;
+    }
+    to{
+        width:48px;
+        margin:0px;
+     } }
+@keyframes ankit2{
+   0%{
+    color:white;
+   }
+   25%{color:blue;}
+   50%{ color: green;}
+   75%{color:red}
+   100%{color:yellow}
 }
 @media screen and (max-width:914px) and (min-width:750px){
     #top ul{
