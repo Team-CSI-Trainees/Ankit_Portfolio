@@ -136,8 +136,7 @@ ul {
     padding: 8px 0px;
 }
 
-#p2,
-#p3 {
+.p2 {
     text-align: justify;
     font-size: 1rem;
     background-color: #ffebcc;
@@ -146,29 +145,21 @@ ul {
     padding: 8px 10px;
 }
 
-#project1c,#project1c2,#project2c  {
+#project1c,#project1c2,#project2c{
     display: flex;
     width: 100%;
 }
 
-.project1,
-.project2 {
+#project1c div,#project2c div,#project1c2 div{
     margin: 8px 9px;
 }
 
-.project1 img {
+#project1c img,#project1c2 img,#project2c img {
     border-radius: 10px;
     width: 100%;
+    border: 2px solid orange;
 }
-
-
-.project2 img {
-    border: 2px solid black;
-    border-radius: 10px;
-    width: 100%;
-}
-
-/* contact_form */
+                                                            /* contact_form */
 #contactimg {
     width: 100%;
 }
@@ -350,8 +341,7 @@ footer img:hover {
         font-size: 1.7rem;
     }
 
-    #p2,
-    #p3 {
+    .p2{
         font-size: 1rem;
      }
 
@@ -359,8 +349,7 @@ footer img:hover {
         flex-wrap: wrap;
     }
 
-    .project1,
-    .project2 {
+    #project1c div,#project2c div,#project1c2 div{
         margin: 8px 9px;
     }
 
@@ -482,16 +471,14 @@ footer img:hover {
         font-size: 1.3rem;
    }
 
-    #p2,
-    #p3 {
+   .p2 {
        font-size: 0.9rem;
     }
 
     #project1c,#project1c2,#project2c  {
         flex-wrap: wrap;
     }
-    .project1,
-    .project2 {
+    #project1c div,#project2c div,#project1c2 div {
         margin: 8px 9px;
     }
 
@@ -611,16 +598,14 @@ footer img:hover {
         font-size: 1.3rem;
     }
 
-    #p2,
-    #p3 {
+    .p2  {
         font-size: 0.9rem;
      }
 
      #project1c,#project1c2,#project2c  {
         flex-wrap: wrap;
     }
-    .project1,
-    .project2 {
+    #project1c div,#project2c div,#project1c2 div{
         margin: 8px 9px;
     }
 
@@ -740,16 +725,14 @@ footer img:hover {
         font-size: 1.3rem;
    }
 
-    #p2,
-    #p3 {
+   .p2  {
         font-size: 0.9rem;
     }
 
     #project1c,#project1c2,#project2c  {
         flex-wrap: wrap;
     }
-    .project1,
-    .project2 {
+    #project1c div,#project2c div,#project1c2 div{
         margin: 8px 9px;
     }
 
@@ -867,8 +850,7 @@ footer img:hover {
         font-size: 1.1rem;
      }
 
-    #p2,
-    #p3 {
+     .p2 {
         font-size: 12px;
  }
 
@@ -876,8 +858,7 @@ footer img:hover {
     flex-wrap: wrap;
 }
 
-    .project1,
-    .project2 {
+#project1c div,#project2c div,#project1c2 div {
         margin: 2px 9px;
     }
 
@@ -999,8 +980,7 @@ footer img:hover {
         font-size: 1.1rem;
        }
 
-    #p2,
-    #p3 {
+       .p2 {
          font-size: 12px;
         }
 
@@ -1129,17 +1109,15 @@ footer img:hover {
         font-size: 1.1rem;
          }
 
-    #p2,
-    #p3 {
+    .p2 {
        font-size: 12px;
        }
 
-       #project1c,#project1c2,#project2c  {
+    #project1c,#project1c2,#project2c  {
         flex-wrap: wrap;
     }
 
-    .project1,
-    .project2 {
+    #project1c div,#project2c div,#project1c2 div {
         margin: 2px 9px;
     }
 
