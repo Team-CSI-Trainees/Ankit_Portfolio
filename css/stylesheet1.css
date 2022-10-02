@@ -101,7 +101,8 @@ ul {
     color: white;
     margin-bottom: 2rem;
 }
-#skill img{
+
+#skill img {
     width: 100%;
 }
 
@@ -264,13 +265,10 @@ footer img:hover {
 @media screen and (max-width: 914px) and (min-width: 750px) {
     #top li a {
         font-size: 1.3rem;
-        text-decoration: none;
-        color: black;
         padding: 0px 14px;
     }
 
     #top li a:hover {
-        color: #fc8019;
         border-radius: 5px;
     }
 
@@ -280,9 +278,6 @@ footer img:hover {
     }
 
     #mid1 {
-        position: absolute;
-        display: flex;
-        flex-direction: column;
         width: 50%;
         top: 6rem;
         margin-left: 2rem;
@@ -312,9 +307,7 @@ footer img:hover {
 
     .skillcd div {
         padding: 19px;
-
         border-radius: 26px;
-
         font-size: 0.9rem;
     }
 
@@ -366,26 +359,19 @@ footer img:hover {
     textarea {
         margin: 2% 2%;
         padding: 4% 4%;
-        border: 2px solid black;
         border-radius: 10px;
-        background-color: #fdd6b5;
     }
 
     #contactid {
         font-size: 3rem;
         font-weight: 500;
         padding: 5px;
-        text-align: center;
-        background-color: #fc8019;
-        color: white;
         margin-bottom: 0.5rem;
     }
 
     /* footer */
 
     #lefty {
-        color: white;
-        float: right;
         margin: 20px 33px;
     }
 
@@ -399,13 +385,10 @@ footer img:hover {
 @media screen and (max-width: 750px) and (min-width: 570px) {
     #top li a {
         font-size: 0.9rem;
-        text-decoration: none;
-        color: black;
         padding: 0px 14px;
     }
 
     #top li a:hover {
-        color: #fc8019;
         border-radius: 5px;
     }
 
@@ -415,9 +398,6 @@ footer img:hover {
     }
 
     #mid1 {
-        position: absolute;
-        display: flex;
-        flex-direction: column;
         width: 50%;
         top: 6rem;
         margin-left: 2rem;
@@ -501,26 +481,19 @@ footer img:hover {
     textarea {
         margin: 2% 2%;
         padding: 4% 4%;
-        border: 2px solid black;
         border-radius: 10px;
-        background-color: #fdd6b5;
     }
 
     #contactid {
         font-size: 2rem;
         font-weight: 500;
         padding: 5px;
-        text-align: center;
-        background-color: #fc8019;
-        color: white;
         margin-bottom: 0.5rem;
     }
 
     /* footer */
 
     #lefty {
-        color: white;
-        float: right;
         margin: 20px 33px;
     }
 
@@ -534,13 +507,10 @@ footer img:hover {
 @media screen and (max-width: 750px) and (min-width: 570px) {
     #top li a {
         font-size: 0.9rem;
-        text-decoration: none;
-        color: black;
         padding: 0px 14px;
     }
 
     #top li a:hover {
-        color: #fc8019;
         border-radius: 5px;
     }
 
@@ -550,9 +520,6 @@ footer img:hover {
     }
 
     #mid1 {
-        position: absolute;
-        display: flex;
-        flex-direction: column;
         width: 50%;
         top: 6rem;
         margin-left: 2rem;
@@ -634,26 +601,19 @@ footer img:hover {
     textarea {
         margin: 2% 2%;
         padding: 4% 4%;
-        border: 2px solid black;
         border-radius: 10px;
-        background-color: #fdd6b5;
     }
 
     #contactid {
         font-size: 2rem;
         font-weight: 500;
         padding: 5px;
-        text-align: center;
-        background-color: #fc8019;
-        color: white;
         margin-bottom: 0.5rem;
     }
 
     /* footer */
 
     #lefty {
-        color: white;
-        float: right;
         margin: 20px 33px;
     }
 
@@ -667,13 +627,10 @@ footer img:hover {
 @media screen and (max-width: 570px) and (min-width: 430px) {
     #top li a {
         font-size: 0.9rem;
-        text-decoration: none;
-        color: black;
         padding: 0px 14px;
     }
 
     #top li a:hover {
-        color: #fc8019;
         border-radius: 5px;
     }
 
@@ -683,9 +640,6 @@ footer img:hover {
     }
 
     #mid1 {
-        position: absolute;
-        display: flex;
-        flex-direction: column;
         width: 50%;
         top: 5rem;
         margin-left: 2rem;
@@ -714,9 +668,7 @@ footer img:hover {
 
     .skillcd div {
         padding: 19px;
-
         border-radius: 26px;
-
         font-size: 0.9rem;
     }
 
@@ -768,26 +720,19 @@ footer img:hover {
     textarea {
         margin: 2% 2%;
         padding: 4% 4%;
-        border: 2px solid black;
         border-radius: 10px;
-        background-color: #fdd6b5;
     }
 
     #contactid {
         font-size: 2rem;
         font-weight: 500;
         padding: 5px;
-        text-align: center;
-        background-color: #fc8019;
-        color: white;
         margin-bottom: 0.5rem;
     }
 
     /* footer */
 
     #lefty {
-        color: white;
-        float: right;
         margin: 16px 24px;
     }
 
@@ -801,13 +746,10 @@ footer img:hover {
 @media screen and (max-width: 430px) and (min-width: 320px) {
     #top li a {
         font-size: 12px;
-        text-decoration: none;
-        color: black;
         padding: 0px 7px;
     }
 
     #top li a:hover {
-        color: #fc8019;
         border-radius: 5px;
     }
 
@@ -817,9 +759,6 @@ footer img:hover {
     }
 
     #mid1 {
-        position: absolute;
-        display: flex;
-        flex-direction: column;
         width: 54%;
         top: 51px;
         margin-left: 21px;
@@ -900,26 +839,19 @@ footer img:hover {
     textarea {
         margin: 2% 2%;
         padding: 3% 4%;
-        border: 2px solid black;
         border-radius: 5px;
-        background-color: #fdd6b5;
     }
 
     #contactid {
         font-size: 28px;
         font-weight: 500;
         padding: 3px;
-        text-align: center;
-        background-color: #fc8019;
-        color: white;
         margin-bottom: 3px;
     }
 
     /* footer */
 
     #lefty {
-        color: white;
-        float: right;
         margin: 10px 10px;
     }
 
@@ -933,13 +865,10 @@ footer img:hover {
 @media screen and (max-width: 320px) and (min-width: 237px) {
     #top li a {
         font-size: 11px;
-        text-decoration: none;
-        color: black;
         padding: 0px 3px;
     }
 
     #top li a:hover {
-        color: #fc8019;
         border-radius: 5px;
     }
 
@@ -949,9 +878,6 @@ footer img:hover {
     }
 
     #mid1 {
-        position: absolute;
-        display: flex;
-        flex-direction: column;
         width: 64%;
         top: 51px;
         margin-left: 13px;
@@ -1030,26 +956,19 @@ footer img:hover {
     textarea {
         margin: 2% 2%;
         padding: 3% 4%;
-        border: 2px solid black;
         border-radius: 5px;
-        background-color: #fdd6b5;
     }
 
     #contactid {
         font-size: 28px;
         font-weight: 500;
         padding: 3px;
-        text-align: center;
-        background-color: #fc8019;
-        color: white;
         margin-bottom: 3px;
     }
 
     /* footer */
 
     #lefty {
-        color: white;
-        float: right;
         margin: 10px 10px;
         font-size: 11px;
     }
@@ -1068,13 +987,10 @@ footer img:hover {
 @media screen and (max-width: 237px) {
     #top li a {
         font-size: 10px;
-        text-decoration: none;
-        color: black;
         padding: 0px 3px;
     }
 
     #top li a:hover {
-        color: #fc8019;
         border-radius: 5px;
     }
 
@@ -1084,9 +1000,6 @@ footer img:hover {
     }
 
     #mid1 {
-        position: absolute;
-        display: flex;
-        flex-direction: column;
         width: 64%;
         top: 52px;
         margin-left: 5px;
@@ -1169,26 +1082,18 @@ footer img:hover {
     textarea {
         margin: 2% 2%;
         padding: 3% 4%;
-        border: 2px solid black;
         border-radius: 5px;
-        background-color: #fdd6b5;
     }
 
     #contactid {
         font-size: 28px;
         font-weight: 500;
         padding: 3px;
-        text-align: center;
-        background-color: #fc8019;
-        color: white;
         margin-bottom: 3px;
     }
 
     /* footer */
-
     #lefty {
-        color: white;
-        float: right;
         margin: 9px 3px;
         font-size: 10px;
     }
