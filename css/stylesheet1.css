@@ -90,7 +90,9 @@ ul {
     margin: 0rem 1rem;
 }
 
-#skillid ,#contactid,#projectid{
+#skillid,
+#contactid,
+#projectid {
     font-size: 4rem;
     font-weight: 500;
     padding: 5px;
@@ -99,28 +101,11 @@ ul {
     color: white;
     margin-bottom: 2rem;
 }
-
-#skill1 img {
+#skill img{
     width: 100%;
 }
 
-#skill2 img {
-    width: 108%;
-}
-
-#skill3 img {
-    width: 86%;
-}
-
-#skill4 img {
-    width: 86%;
-}
-
-#skill5 img {
-    width: 101%;
-}
-
-                                                                   /* project */
+/* project */
 
 #projectid {
     margin-bottom: 1rem;
@@ -145,21 +130,28 @@ ul {
     padding: 8px 10px;
 }
 
-#project1c,#project1c2,#project2c{
+#project1c,
+#project1c2,
+#project2c {
     display: flex;
     width: 100%;
 }
 
-#project1c div,#project2c div,#project1c2 div{
+#project1c div,
+#project2c div,
+#project1c2 div {
     margin: 8px 9px;
 }
 
-#project1c img,#project1c2 img,#project2c img {
+#project1c img,
+#project1c2 img,
+#project2c img {
     border-radius: 10px;
     width: 100%;
     border: 2px solid orange;
 }
-                                                            /* contact_form */
+
+/* contact_form */
 #contactimg {
     width: 100%;
 }
@@ -181,13 +173,15 @@ ul {
 }
 
 /* .inputss */
- input,textarea{
+input,
+textarea {
     margin: 2% 2%;
     padding: 4% 4%;
     border: 2px solid black;
     border-radius: 10px;
     background-color: #fdd6b5;
 }
+
 #contactid {
     margin-bottom: 0.5rem;
 }
@@ -329,32 +323,37 @@ footer img:hover {
         padding: 5px;
         margin-bottom: 2rem;
     }
-/* project */
+
+    /* project */
 
     #projectid {
         font-size: 3rem;
-       padding: 5px;
-         margin-bottom: 1rem;
+        padding: 5px;
+        margin-bottom: 1rem;
     }
 
     .p1 {
         font-size: 1.7rem;
     }
 
-    .p2{
+    .p2 {
         font-size: 1rem;
-     }
+    }
 
-     #project1c,#project1c2,#project2c  {
+    #project1c,
+    #project1c2,
+    #project2c {
         flex-wrap: wrap;
     }
 
-    #project1c div,#project2c div,#project1c2 div{
+    #project1c div,
+    #project2c div,
+    #project1c2 div {
         margin: 8px 9px;
     }
 
     /* contact_form */
-   #contact {
+    #contact {
         padding-top: 1rem;
     }
 
@@ -363,7 +362,8 @@ footer img:hover {
         border-radius: 10px;
     }
 
-    input,textarea {
+    input,
+    textarea {
         margin: 2% 2%;
         padding: 4% 4%;
         border: 2px solid black;
@@ -463,22 +463,27 @@ footer img:hover {
 
     #projectid {
         font-size: 2rem;
-       padding: 5px;
+        padding: 5px;
         margin-bottom: 1rem;
     }
 
     .p1 {
         font-size: 1.3rem;
-   }
-
-   .p2 {
-       font-size: 0.9rem;
     }
 
-    #project1c,#project1c2,#project2c  {
+    .p2 {
+        font-size: 0.9rem;
+    }
+
+    #project1c,
+    #project1c2,
+    #project2c {
         flex-wrap: wrap;
     }
-    #project1c div,#project2c div,#project1c2 div {
+
+    #project1c div,
+    #project2c div,
+    #project1c2 div {
         margin: 8px 9px;
     }
 
@@ -492,7 +497,8 @@ footer img:hover {
         border-radius: 10px;
     }
 
-    input,textarea {
+    input,
+    textarea {
         margin: 2% 2%;
         padding: 4% 4%;
         border: 2px solid black;
@@ -574,7 +580,7 @@ footer img:hover {
         flex-wrap: wrap;
     }
 
-    .skillcd div  {
+    .skillcd div {
         padding: 19px;
         border-radius: 26px;
         font-size: 0.9rem;
@@ -591,35 +597,41 @@ footer img:hover {
     #projectid {
         font-size: 2rem;
         padding: 5px;
-         margin-bottom: 1rem;
+        margin-bottom: 1rem;
     }
 
     .p1 {
         font-size: 1.3rem;
     }
 
-    .p2  {
+    .p2 {
         font-size: 0.9rem;
-     }
+    }
 
-     #project1c,#project1c2,#project2c  {
+    #project1c,
+    #project1c2,
+    #project2c {
         flex-wrap: wrap;
     }
-    #project1c div,#project2c div,#project1c2 div{
+
+    #project1c div,
+    #project2c div,
+    #project1c2 div {
         margin: 8px 9px;
     }
 
     /* contact_form */
     #contact {
-       padding-top: 10px;
+        padding-top: 10px;
     }
 
     #contact_details {
-         width: 43%;
-         border-radius: 10px;
+        width: 43%;
+        border-radius: 10px;
     }
 
-    input,textarea {
+    input,
+    textarea {
         margin: 2% 2%;
         padding: 4% 4%;
         border: 2px solid black;
@@ -707,6 +719,7 @@ footer img:hover {
 
         font-size: 0.9rem;
     }
+
     #skillid {
         font-size: 2rem;
         padding: 5px;
@@ -723,16 +736,21 @@ footer img:hover {
 
     .p1 {
         font-size: 1.3rem;
-   }
+    }
 
-   .p2  {
+    .p2 {
         font-size: 0.9rem;
     }
 
-    #project1c,#project1c2,#project2c  {
+    #project1c,
+    #project1c2,
+    #project2c {
         flex-wrap: wrap;
     }
-    #project1c div,#project2c div,#project1c2 div{
+
+    #project1c div,
+    #project2c div,
+    #project1c2 div {
         margin: 8px 9px;
     }
 
@@ -746,7 +764,8 @@ footer img:hover {
         border-radius: 10px;
     }
 
-    input,textarea {
+    input,
+    textarea {
         margin: 2% 2%;
         padding: 4% 4%;
         border: 2px solid black;
@@ -827,11 +846,12 @@ footer img:hover {
         flex-wrap: wrap;
     }
 
-    .skillcd div  {
+    .skillcd div {
         padding: 14px;
         border-radius: 17px;
         font-size: 12px;
     }
+
     #skillid {
         font-size: 28px;
         padding: 3px;
@@ -848,31 +868,36 @@ footer img:hover {
 
     .p1 {
         font-size: 1.1rem;
-     }
+    }
 
-     .p2 {
+    .p2 {
         font-size: 12px;
- }
+    }
 
- #project1c,#project1c2,#project2c  {
-    flex-wrap: wrap;
-}
+    #project1c,
+    #project1c2,
+    #project2c {
+        flex-wrap: wrap;
+    }
 
-#project1c div,#project2c div,#project1c2 div {
+    #project1c div,
+    #project2c div,
+    #project1c2 div {
         margin: 2px 9px;
     }
 
     /* contact_form */
-  #contact {
+    #contact {
         padding-top: 6px;
     }
 
     #contact_details {
-      width: 75%;
-         border-radius: 5px;
+        width: 75%;
+        border-radius: 5px;
     }
 
-    input,textarea {
+    input,
+    textarea {
         margin: 2% 2%;
         padding: 3% 4%;
         border: 2px solid black;
@@ -955,13 +980,14 @@ footer img:hover {
         flex-wrap: wrap;
     }
 
-    .skillcd div  {
+    .skillcd div {
         padding: 14px;
 
         border-radius: 17px;
 
         font-size: 12px;
     }
+
     #skillid {
         font-size: 28px;
         padding: 3px;
@@ -978,16 +1004,18 @@ footer img:hover {
 
     .p1 {
         font-size: 1.1rem;
-       }
+    }
 
-       .p2 {
-         font-size: 12px;
-        }
+    .p2 {
+        font-size: 12px;
+    }
 
-        #project1c,#project1c2,#project2c  {
-            flex-wrap: wrap;
-        }
- 
+    #project1c,
+    #project1c2,
+    #project2c {
+        flex-wrap: wrap;
+    }
+
     /* contact_form */
     #contact {
         padding-top: 6px;
@@ -998,7 +1026,8 @@ footer img:hover {
         border-radius: 5px;
     }
 
-    input,textarea {
+    input,
+    textarea {
         margin: 2% 2%;
         padding: 3% 4%;
         border: 2px solid black;
@@ -1059,7 +1088,7 @@ footer img:hover {
         display: flex;
         flex-direction: column;
         width: 64%;
-        top:52px;
+        top: 52px;
         margin-left: 5px;
     }
 
@@ -1086,11 +1115,12 @@ footer img:hover {
         flex-wrap: wrap;
     }
 
-    .skillcd div  {
+    .skillcd div {
         padding: 14px;
         border-radius: 17px;
         font-size: 12px;
     }
+
     #skillid {
         font-size: 28px;
         padding: 3px;
@@ -1107,17 +1137,21 @@ footer img:hover {
 
     .p1 {
         font-size: 1.1rem;
-         }
+    }
 
     .p2 {
-       font-size: 12px;
-       }
+        font-size: 12px;
+    }
 
-    #project1c,#project1c2,#project2c  {
+    #project1c,
+    #project1c2,
+    #project2c {
         flex-wrap: wrap;
     }
 
-    #project1c div,#project2c div,#project1c2 div {
+    #project1c div,
+    #project2c div,
+    #project1c2 div {
         margin: 2px 9px;
     }
 
@@ -1131,7 +1165,8 @@ footer img:hover {
         border-radius: 5px;
     }
 
-    input,textarea {
+    input,
+    textarea {
         margin: 2% 2%;
         padding: 3% 4%;
         border: 2px solid black;
